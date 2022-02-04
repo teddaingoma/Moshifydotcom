@@ -1,3 +1,4 @@
+@import "./normalize.css";
 /* General */
 .container{
     max-width: 1140px;
@@ -862,6 +863,10 @@ a {
     opacity: 0.3;
 }
 
+.footer__sections {
+    margin-top: 5rem;
+}
+
 @media screen and (min-width: 768px) {
     .footer__sections {
         grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
@@ -896,4 +901,10 @@ a {
     .footer__heading {
         font-size: 1.6rem;
     }
+}
+
+/* Sign-up Callout */
+
+.callout-signup {
+    transform: translateY(5rem);
 }
